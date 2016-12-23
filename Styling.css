@@ -11,7 +11,7 @@
 }    
 
 body{
-	background-color: #10151c;
+	background-color: #222f45;
 }
 h2{
 	font-family: hanken;
@@ -20,7 +20,7 @@ h2{
 
 img.profile{
 	margin: 3% auto auto auto;
-	border-radius: 37%;
+	border-radius: 90%;
 }
 img.align-center{
 	display: block;
@@ -40,7 +40,8 @@ img.large{
 }
 
 .info{
-	background: #399580;
+	background: #646d7d;
+	border: 2px solid #ffffff;
 	width: 500px;
 	height: 400px;
 
@@ -52,9 +53,9 @@ img.large{
 	border-radius: 10%;
 }
 .info p{
-	font-family: SourceSansPro;
+	font-family: hanken;
 	text-align: left;
-	margin: 9% 5% auto 5%;
+	margin: 4% 5% auto 5%;
 	font-size: 1.2em;
 }
 
