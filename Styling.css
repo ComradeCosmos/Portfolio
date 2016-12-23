@@ -6,6 +6,7 @@
 
 body{
 	background-color: #1c2739;
+	overflow: hidden;
 }
 h2{
 	font-family: 'Quicksand', sans-serif;
