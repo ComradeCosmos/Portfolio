@@ -3,48 +3,37 @@
   src: url('Assets/Fonts/Hanken/Hanken.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    		 url('Assets/Fonts/Hanken/Hanken.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Poiret+One|Quicksand|Roboto');
 
-@font-face {
-  font-family: 'SourceSansPro';
-  src: url('Assets/Fonts/SourceSansPro/SourceSansPro.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-   		 url('Assets/Fonts/SourceSansPro/SourceSansPro.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}    
+
 
 body{
 	background-color: #222f45;
 }
 h2{
-	font-family: hanken;
+	font-family: 'Poiret One', sans-serif;
 	text-align:center;
 }
 
-img.profile{
+#profile{
 	margin: 3% auto auto auto;
 	border-radius: 90%;
 	border: 3px solid white;
+	width: 10em;
+	height: 10em;
 }
 img.align-center{
 	display: block;
 	margin: auto;
-}
-img.small{
-	width: 30%;
-	height: 40%;
-}
-img.medium{
-	width: 15%;
-	height: 15%;
-}
-img.large{
-	width: 35%;
-	height: 35%;
 }
 
 .info{
 	background: #646d7d;
 	border: 2px solid #ffffff;
 	width: 500px;
+	max-width: 100vw;
 	height: 400px;
+	max-height: 100vw;
 
 	position: absolute;
 	top: 50%;
