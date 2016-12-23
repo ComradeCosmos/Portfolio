@@ -1,1 +1,62 @@
+@font-face {
+  font-family: 'hanken';
+  src: url('Assets/Fonts/Hanken/Hanken.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   		 url('Assets/Fonts/Hanken/Hanken.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('Assets/Fonts/SourceSansPro/SourceSansPro.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   		 url('Assets/Fonts/SourceSansPro/SourceSansPro.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}    
+
+body{
+	background-color: #10151c;
+}
+h2{
+	font-family: hanken;
+	text-align:center;
+}
+
+img.profile{
+	margin: 3% auto auto auto;
+	border-radius: 37%;
+}
+img.align-center{
+	display: block;
+	margin: auto;
+}
+img.small{
+	width: 30%;
+	height: 40%;
+}
+img.medium{
+	width: 15%;
+	height: 15%;
+}
+img.large{
+	width: 35%;
+	height: 35%;
+}
+
+.info{
+	background: #399580;
+	width: 500px;
+	height: 400px;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin: -200px 0 0 -250px;
+	border-radius: 10%;
+}
+.info p{
+	font-family: SourceSansPro;
+	text-align: left;
+	margin: 9% 5% auto 5%;
+	font-size: 1.2em;
+}
+
+
 
