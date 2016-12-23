@@ -3,20 +3,20 @@
   src: url('Assets/Fonts/Hanken/Hanken.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
    		 url('Assets/Fonts/Hanken/Hanken.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|Poiret+One|Quicksand|Roboto');
-
-
 
 body{
 	background-color: #222f45;
 }
 h2{
-	font-family: 'Poiret One', sans-serif;
+	font-family: 'Text Me One', sans-serif;
 	text-align:center;
+	margin-bottom: 3%;
+	font-weight: 500;
+	font-size: 2.1em;
 }
 
 #profile{
-	margin: 3% auto auto auto;
+	margin: auto auto auto auto;
 	border-radius: 90%;
 	border: 3px solid white;
 	width: 10em;
@@ -44,10 +44,11 @@ img.align-center{
 	border-radius: 10%;
 }
 .info p{
-	font-family: hanken;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
 	text-align: left;
 	margin: 4% 5% auto 5%;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 
