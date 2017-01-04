@@ -49,6 +49,7 @@ img.align-center{
 .info{
 	width: 500px;
 	height: 425px;
+	overflow: auto;
 
 	margin: 5% auto;
 }
