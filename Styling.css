@@ -48,8 +48,7 @@ img.align-center{
 
 .info{
 	width: 500px;
-	height: 425px;
-	overflow: auto;
+	height: auto;
 
 	margin: 5% auto;
 }
@@ -62,6 +61,7 @@ img.align-center{
 	font-size: 1.3em;
 	padding-left: 10%;
 	padding-right: 10%;
+	padding-bottom: 8%;
 }
 .portfolio{
 	width: 1000px;
