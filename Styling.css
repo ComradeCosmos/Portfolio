@@ -1,5 +1,7 @@
 body{
-	background-color: #1c2739;
+	display: flex;
+	flex-direction: column;
+	background-color: #eff8fa;
 	height: 95em;
 }
 h2{
@@ -39,17 +41,20 @@ img.align-center{
 }
 
 .bubble{
-	background: #646d7d;
-	border: 1px solid #ffffff;
+	display: flex;
+	flex-direction: column;
+	background: #eff8fa;
+	border: 1px solid #000000;
 	max-width: 100vw;
 	max-height: 100vw;
 	border-radius: 10%;
 }
 
 .info{
-	width: 500px;
+	width: 32em;
 	height: auto;
-
+	order: 1;
+	flex-grow: 1;
 	margin: 5% auto;
 }
 
@@ -64,9 +69,9 @@ img.align-center{
 	padding-bottom: 8%;
 }
 .portfolio{
-	width: 1000px;
+	width: 60em;
 	height: 800px;
-
+	order: 2;
 	margin: 5% auto;
 }
 
