@@ -81,10 +81,10 @@ img.align-center{
 
 	-webkit-transition-duration: 0.75s; /* Safari */
   transition-duration: 0.75s;
+	background-color: #dcdddc;
 	border-left: 6px solid #63b3b7; 
 	border-right: 6px solid #63b3b7; 
 	border-radius: 20px;
-	background-color: #b2b5b3;
 	outline: 0; 
 }
 
