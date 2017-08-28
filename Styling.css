@@ -85,6 +85,7 @@ h2{
 
 	height: auto;
 	width: 40em;
+	max-width: 75vw;
 	padding: 0 2em 2em 2em;
 	margin: 2em 2em;
 
