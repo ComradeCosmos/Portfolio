@@ -1,8 +1,16 @@
+/*--------Broad style changes--------*/
 body{
 	display: flex;
 	flex-direction: column;
 	background-color: #ffffff;
 	height: 95em;
+}
+
+p{
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	text-align: left;
+	font-size: 1.3em;
 }
 h2{
 	font-family: 'Quicksand', sans-serif;
@@ -12,55 +20,92 @@ h2{
 	font-size: 2.1em;
 }
 
-#profile{
-	margin: auto auto auto auto;
-	border-radius: 90%;
-	border: 1px solid white;
-	width: 10em;
-	height: 10em;
-}
-
 img.align-center{
 	display: block;
 	margin: auto;
 }
 
+
+/*--------IDs--------*/
+#profile{
+	margin: auto;
+	border-radius: 90%;
+	border: 1px solid black;
+	width: 10em;
+	height: 10em;
+}
+
+
+/*--------Templates--------*/
 .bubble{
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	background: #ffffff;
-	border: 1px solid #000000;
+	border: 2px solid black;
 	max-width: 93vw;
 	max-height: 93vw;
 	border-radius: 10%;
+	overflow: hidden;
 }
 
-.info{
+/*--------About box--------*/
+.about{
 	width: 32em;
 	height: auto;
 	order: 1;
-	clear: both;
-  content: "";
-  display: table;
 	margin: 5% auto;
 }
 
-.info p{
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 500;
-	text-align: left;
+.about p{
 	margin: 4% 5% auto 5%;
-	font-size: 1.3em;
 	padding-left: 10%;
 	padding-right: 10%;
 	padding-bottom: 8%;
 }
+
+/*--------Portfolio box--------*/
 .portfolio{
-	width: 60em;
-	height: 800px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: flex-start;
 	order: 2;
-	margin: 5% auto;
+	margin: 2% 20%;
+	padding: 1% 2%;
 }
+
+/*--------Project template--------*/
+.project{
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	justify-content: flex-start;
+	align-items: center;
+
+	-webkit-transition-duration: 0.75s; /* Safari */
+  transition-duration: 0.75s;
+	border-left: 6px solid #63b3b7; 
+	border-right: 6px solid #63b3b7; 
+	border-radius: 20px;
+	background-color: #b2b5b3;
+	outline: 0; 
+}
+
+.project:hover{
+	background-color: #63b3b7;
+	-webkit-transition-duration: 0.75s; /* Safari */
+  transition-duration: 0.75s;
+}
+
+.project img{
+	order: 1;
+	
+	margin: 20% 2%;
+}
+
+.project p{
+	order: 2;
+}
+
+
+
+
 
 
