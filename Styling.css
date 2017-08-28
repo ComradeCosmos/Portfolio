@@ -1,83 +1,105 @@
 /*--------Broad style changes--------*/
+html{
+  height: auto;
+}
 body{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	
+  min-height: 100%;
+
+
+	overflow-y: scroll;
+  overflow-x: hidden;	
 	background-color: #ffffff;
-	height: 95em;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
 }
 
 p{
-	font-family: 'Quicksand', sans-serif;
-	color: black;
 	text-align: left;
-	font-size: 1.3em;
 }
+
 h2{
-	font-family: 'Quicksand', sans-serif;
 	text-align:center;
-	margin-bottom: 3%;
+	
+	font-size: 1.6em;
 	font-weight: 400;
-	font-size: 2.1em;
-}
-
-img.align-center{
-	display: block;
-	margin: auto;
-}
-
-
-/*--------IDs--------*/
-#profile{
-	margin: auto;
-	border-radius: 90%;
-	border: 1px solid black;
-	width: 10em;
-	height: 10em;
 }
 
 
 /*--------Templates--------*/
 .bubble{
-	border: 2px solid black;
-	max-width: 93vw;
-	max-height: 93vw;
+	max-width: 97vw;
+	
 	border-radius: 10%;
+	border: 2px solid black;
 	overflow: hidden;
 }
 
 /*--------About box--------*/
 .about{
-	width: 32em;
-	height: auto;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
 	order: 1;
-	margin: 5% auto;
+
+	width: 20em;
+	height: auto;
+	min-width: 30%;
+	margin: 2em 1em;
 }
 
-.about p{
-	margin: 4% 5% auto 5%;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 8%;
+.about h2{
+	order: 1;
+
+	margin: 0.75em 2em;
+}
+
+#profile{
+	order: 2;
+
+	width: 8em;
+	height: 8em;
+
+	border-radius: 90%;
+	border: 1px solid black;
+}
+
+.intro{
+	display:block;
+	order: 3;
+	overflow-wrap: break-word;
+	margin: 1.5em 3em;
 }
 
 /*--------Portfolio box--------*/
 .portfolio{
 	display: flex;
 	flex-direction: column;
-	flex-grow: 1;
+	flex-grow: 2;
 	justify-content: flex-start;
 	order: 2;
-	margin: 2% 20%;
-	padding: 1% 2%;
+
+	height: auto;
+	width: 40em;
+	max-width: 70vw;
+	padding: 0 2em 2em 2em;
+	margin: 2em 2em;
+
+	border-radius: 2em;
 }
 
 /*--------Project template--------*/
 .project{
 	display: flex;
 	flex-direction: row;
-	flex-grow: 1;
+	flex-grow: 0;
 	justify-content: flex-start;
 	align-items: center;
+
 
 	-webkit-transition-duration: 0.75s; /* Safari */
   transition-duration: 0.75s;
