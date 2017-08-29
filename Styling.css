@@ -71,7 +71,6 @@ h2{
 	width: 8em;
 	height: 8em;
 
-	border: 1px solid black;
 	border-radius: 10%;
 }
 
@@ -112,6 +111,7 @@ h2{
 	background-color: rgba(142, 201, 210, 0.1);
 	border-left: 6px solid #8ec9d2; 
 	border-right: 6px solid #8ec9d2; 
+	border-radius: 20px;
 	outline: 0; 
 }
 
