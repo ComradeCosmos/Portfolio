@@ -12,18 +12,27 @@ body{
 
 	overflow-y: scroll;
   overflow-x: hidden;	
-	background-color: #ffffff;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 1.3em;
+	background-color: #2e334a;
+	font-size: 1.1em;
 }
 
 p{
+	font-family: 'Muli', sans-serif;
+	color: #b7b8bf;
 	text-align: left;
 }
 
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+
 h2{
-	text-align:center;
-	
+	text-align: center;
+	color: #8ec9d2;
+	font-family: 'Ovo', serif;
 	font-size: 1.6em;
 	font-weight: 400;
 }
@@ -32,9 +41,8 @@ h2{
 /*--------Templates--------*/
 .bubble{
 	max-width: 97vw;
+	width: 28em;
 	
-	border-radius: 10%;
-	border: 2px solid black;
 	overflow: hidden;
 }
 
@@ -46,33 +54,34 @@ h2{
 	align-items: center;
 	order: 1;
 
-	width: 20em;
 	height: auto;
-	min-width: 30%;
-	margin: 2em 1em;
+	margin: 2em 1em 1em 1em;
+	padding: 1.5em
 }
 
 .about h2{
-	order: 1;
+	order: 2;
 
 	margin: 0.75em 2em;
 }
 
 #profile{
-	order: 2;
+	order: 1;
 
 	width: 8em;
 	height: 8em;
 
-	border-radius: 90%;
 	border: 1px solid black;
+	border-radius: 10%;
 }
 
 .intro{
 	display:block;
 	order: 3;
+	font-family: 'Muli', sans-serif;
 	overflow-wrap: break-word;
-	margin: 1.5em 3em;
+	margin: 0em 5em;
+	color: #b7b8bf;
 }
 
 /*--------Portfolio box--------*/
@@ -84,12 +93,9 @@ h2{
 	order: 2;
 
 	height: auto;
-	width: 40em;
-	max-width: 75vw;
 	padding: 0 2em 2em 2em;
-	margin: 2em 2em;
+	margin: 0em 2em;
 
-	border-radius: 2em;
 }
 
 /*--------Project template--------*/
@@ -103,15 +109,14 @@ h2{
 
 	-webkit-transition-duration: 0.75s; /* Safari */
   transition-duration: 0.75s;
-	background-color: #dcdddc;
-	border-left: 6px solid #63b3b7; 
-	border-right: 6px solid #63b3b7; 
-	border-radius: 20px;
+	background-color: rgba(142, 201, 210, 0.1);
+	border-left: 6px solid #8ec9d2; 
+	border-right: 6px solid #8ec9d2; 
 	outline: 0; 
 }
 
 .project:hover{
-	background-color: #63b3b7;
+	background-color: rgba(142, 201, 210, 0.4);
 	-webkit-transition-duration: 0.75s; /* Safari */
   transition-duration: 0.75s;
 }
